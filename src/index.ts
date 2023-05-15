@@ -9,7 +9,7 @@ const cardJoffrey = `
         <div class="card character__card">
           <img src="img/joffrey.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
-            <h2 class="character__name card-title h4">${charactersTemplates[0].name}${charactersTemplates[0].house}</h2>
+            <h2 class="character__name card-title h4">${charactersTemplates[0].name} ${charactersTemplates[0].house}</h2>
             <div class="character__info">
               <ul class="list-unstyled">
                 <li>Edad: ${charactersTemplates[0].age}</li>
@@ -23,11 +23,6 @@ const cardJoffrey = `
             <div class="character__overlay">
               <ul class="list-unstyled">
                 <li>Años de reinado: ${charactersTemplates[0].rulingYears}</li>
-                <li>Arma: XXX</li>
-                <li>Destreza: X</li>
-                <li>Peloteo: X</li>
-                <li>Asesora a: X</li>
-                <li>Sirve a: X</li>
               </ul>
               <div class="character__actions">
                 <button class="character__action btn">habla</button>
@@ -35,7 +30,7 @@ const cardJoffrey = `
               </div>
             </div>
           </div>
-          <i class="emoji"></i>
+          <i class="emoji" href="👑"></i>
         </div>
       </li>`;
 
@@ -44,7 +39,7 @@ const cardJamie = `
         <div class="card character__card">
           <img src="img/jaime.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
-            <h2 class="character__name card-title h4"> ${charactersTemplates[1].name}${charactersTemplates[2].house}</h2>
+            <h2 class="character__name card-title h4"> ${charactersTemplates[1].name} ${charactersTemplates[2].house}</h2>
             <div class="character__info">
               <ul class="list-unstyled">
                 <li>Edad: ${charactersTemplates[1].age}</li>
@@ -76,7 +71,7 @@ const cardDaenerys = `<li class="character col">
         <div class="card character__card">
           <img src="img/daenerys.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
-            <h2 class="character__name card-title h4">${charactersTemplates[2].name}${charactersTemplates[2].house}</h2>
+            <h2 class="character__name card-title h4">${charactersTemplates[2].name} ${charactersTemplates[2].house}</h2>
             <div class="character__info">
               <ul class="list-unstyled">
                 <li>Edad: ${charactersTemplates[2].age}</li>
@@ -106,7 +101,7 @@ const cardTyrion = `<li class="character col">
         <div class="card character__card">
           <img src="img/tyrion.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
-            <h2 class="character__name card-title h4">${charactersTemplates[3].name}${charactersTemplates[0].house}</h2>
+            <h2 class="character__name card-title h4">${charactersTemplates[3].name} ${charactersTemplates[0].house}</h2>
             <div class="character__info">
               <ul class="list-unstyled">
                 <li>Edad: ${charactersTemplates[3].age}</li>
@@ -135,7 +130,7 @@ const cardBron = `<li class="character col">
         <div class="card character__card">
           <img src="img/bronn.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
-            <h2 class="character__name card-title h4">${charactersTemplates[4].name}${charactersTemplates[0].house}</h2>
+            <h2 class="character__name card-title h4">${charactersTemplates[4].name} ${charactersTemplates[0].house}</h2>
             <div class="character__info">
               <ul class="list-unstyled">
                 <li>Edad: ${charactersTemplates[4].age}</li>
