@@ -42,7 +42,7 @@ const cardJoffrey = `
 const cardJamie = `
  <li class="character col">
         <div class="card character__card">
-          <img src="img/no-one.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
+          <img src="img/jaime.jpg" alt="Nombre y familia del personaje" class="character__picture card-img-top" />
           <div class="card-body">
             <h2 class="character__name card-title h4">${charactersTemplates[1].name}${charactersTemplates[2].house}</h2>
             <div class="character__info">
@@ -57,11 +57,9 @@ const cardJamie = `
             </div>
             <div class="character__overlay">
               <ul class="list-unstyled">
-                <li>Arma: XXX</li>
-                <li>Destreza: X</li>
+                <li>Arma:${charactersTemplates[1].weapon}</li>
+                <li>Destreza: ${charactersTemplates[1].skills}</li>
                 <li>Peloteo: X</li>
-                <li>Asesora a: X</li>
-                <li>Sirve a: X</li>
               </ul>
               <div class="character__actions">
                 <button class="character__action btn">habla</button>
@@ -74,4 +72,4 @@ const cardJamie = `
       </li>
 `;
 
-template.innerHTML = cardJoffrey;
+template.innerHTML = cardJoffrey + cardJamie;
