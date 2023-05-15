@@ -1,10 +1,18 @@
 import { Character } from "./character.js";
 
 export class Squire extends Character {
-  constructor(name, house, age, knight, pelotismo) {
+  knight;
+  pelotismo;
+  constructor(
+    name: string,
+    house: string,
+    age: number,
+    knight: string,
+    pelotismo: number
+  ) {
     super(name, house, age);
     this.knight = knight;
     this.pelotismo = pelotismo;
-    this.communicate = "I'm a loser";
+    this.comunicate = "I'm a loser";
   }
 }

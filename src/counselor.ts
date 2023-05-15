@@ -1,9 +1,15 @@
 import { Character } from "./character.js";
 
 export class Counselor extends Character {
-  constructor(name, house, age, characterAdvised) {
+  characterAdvised;
+  constructor(
+    name: string,
+    house: string,
+    age: number,
+    characterAdvised: string
+  ) {
     super(name, house, age);
     this.characterAdvised = characterAdvised;
-    this.communicate = "I think I'll be dying soon";
+    this.comunicate = "I think I'll be dying soon";
   }
 }
