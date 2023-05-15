@@ -3,7 +3,7 @@ import { Fighter } from "./fighter.ts";
 import { Counselor } from "./counselor.ts";
 import { Squire } from "./squire.ts";
 
-const arrayCharacters = () => {
+export const arrayCharacters = () => {
   const charactersContainer = [
     new King("Joffrey", "Baratheon", 20, 5),
 
@@ -18,3 +18,5 @@ const arrayCharacters = () => {
 
   return charactersContainer;
 };
+
+arrayCharacters();
